@@ -4,20 +4,20 @@ Diseñado para apoyar el aprendizaje de HortonWorks con Cloudera.
 ## Contenido
 
 1. Documentación Oficial
-    1. Apache Hadoop Essentials
+    1. [Apache Hadoop Essentials](https://github.com/petusan36/HortonCloudera/tree/master/Documentaci%C3%B3n%20Oficial/Apache%20Hadoop%20Essentials)
         1. Evaluaciones.txt
         2. HDFS Architecture.pdf
         3. Ingesting Data.pdf
         4. Parallel Processing Fundamentals.pdf
         5. The Case for Hadoop.pdf
         6. The Hadoop Ecosystem.pdf
-2. Manuales
+2. [Manuales](https://github.com/petusan36/HortonCloudera/tree/master/Manuales)
     1. Fuente
         1. M01 - Como iniciar con VM Cloudera.docx
         2. M01 - Como iniciar con VM ClouderaHorton.docx
     2. M01 - Como iniciar con VM Cloudera.pdf
     3. M01 - Como iniciar con VM ClouderaHorton.pdf
-3. VMVagrant
+3. [VMVagrant](https://github.com/petusan36/HortonCloudera/tree/master/VMVagrant)
     1. Vagrantfile
 
 ## Instrucciones
