@@ -3,7 +3,7 @@ Diseñado para apoyar el aprendizaje de HortonWorks con Cloudera.
 
 ## Contenido
 
-1. Documentaci¢n Oficial
+1. Documentación Oficial
     1. Apache Hadoop Essentials
         1. Evaluaciones.txt
         2. HDFS Architecture.pdf
