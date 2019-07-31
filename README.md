@@ -12,13 +12,13 @@ Diseñado para apoyar el aprendizaje de HortonWorks con Cloudera.
         5. The Case for Hadoop.pdf
         6. The Hadoop Ecosystem.pdf
 2. Manuales
-2.1 Fuente
-2.1.1. M01 - Como iniciar con VM Cloudera.docx
-2.1.2. M01 - Como iniciar con VM ClouderaHorton.docx
-2.2. M01 - Como iniciar con VM Cloudera.pdf
-2.3. M01 - Como iniciar con VM ClouderaHorton.pdf
+    1. Fuente
+        1. M01 - Como iniciar con VM Cloudera.docx
+        2. M01 - Como iniciar con VM ClouderaHorton.docx
+    2. M01 - Como iniciar con VM Cloudera.pdf
+    3. M01 - Como iniciar con VM ClouderaHorton.pdf
 3. VMVagrant
-3.1. Vagrantfile
+    1. Vagrantfile
 
 ## Instrucciones
 
