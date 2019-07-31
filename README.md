@@ -4,13 +4,13 @@ Diseñado para apoyar el aprendizaje de HortonWorks con Cloudera.
 ## Contenido
 
 1. Documentaci¢n Oficial
-    1.1. Apache Hadoop Essentials
-1.1.1. Evaluaciones.txt
-1.1.2. HDFS Architecture.pdf
-1.1.3. Ingesting Data.pdf
-1.1.4. Parallel Processing Fundamentals.pdf
-1.1.5. The Case for Hadoop.pdf
-1.1.6. The Hadoop Ecosystem.pdf
+    1. Apache Hadoop Essentials
+        1. Evaluaciones.txt
+        2. HDFS Architecture.pdf
+        3. Ingesting Data.pdf
+        4. Parallel Processing Fundamentals.pdf
+        5. The Case for Hadoop.pdf
+        6. The Hadoop Ecosystem.pdf
 2. Manuales
 2.1 Fuente
 2.1.1. M01 - Como iniciar con VM Cloudera.docx
