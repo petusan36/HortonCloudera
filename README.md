@@ -19,6 +19,7 @@ Diseñado para apoyar el aprendizaje de HortonWorks con Cloudera.
     3. M01 - Como iniciar con VM ClouderaHorton.pdf
 3. [VMVagrant](https://github.com/petusan36/HortonCloudera/tree/master/VMVagrant)
     1. Vagrantfile
+4. [Wiki](https://github.com/petusan36/HortonCloudera/wiki)
 
 ## Instrucciones
 
@@ -27,4 +28,3 @@ Diseñado para apoyar el aprendizaje de HortonWorks con Cloudera.
  * M01 - Como iniciar con VM ClouderaHorton.pdf: Este manual está enfocado a la instalación y configuración de una máquina virtual de Cloudera pero con el empaquetado Hortonworks.
  
 + Si quiere descargar la imagen usando Vagrant, entonces descargue de la carpeta [VMVagrant](https://github.com/petusan36/HortonCloudera/tree/master/VMVagrant) el archivo Vagrantfile y siga las instrucciones del manual.
-4. [Wiki](https://github.com/petusan36/HortonCloudera/wiki)
