@@ -1,0 +1,41 @@
+wget https://github.com/hortonworks/data-tutorials/raw/master/tutorials/hdp/manage-files-on-hdfs-via-cli-ambari-files-view/assets/drivers-datasets/geolocation.csv
+wget https://github.com/hortonworks/data-tutorials/raw/master/tutorials/hdp/manage-files-on-hdfs-via-cli-ambari-files-view/assets/drivers-datasets/trucks.csv
+
+#Login under hdfs user
+su hdfs
+cd
+
+hdfs dfs -chmod 777 /user
+exit
+
+#Creates a directory called hadoop under users
+hdfs dfs -mkdir /user/hadoop
+
+#Creates two directories geolocation.csv and trucks.csv under the directory hadoop
+hdfs dfs -mkdir /user/hadoop/geolocation /user/hadoop/trucks
+
+#Copy the geolocation.csv file to HDFS
+hdfs dfs -put geolocation.csv /user/hadoop/geolocation
+
+#Copy the trucks.csv file to HDFS
+hdfs dfs -put trucks.csv /user/hadoop/trucks
+
+
+#List the content of the hadoop directory
+hdfs dfs -ls /user/hadoop
+
+#List the content of the geolocation directory
+hdfs dfs -ls /user/hadoop/geolocation
+
+##List the content of the trucks directory
+hdfs dfs -ls /user/hadoop/trucks
+
+#Syntax for displaying the size of a file and directory in HDFS
+hdfs dfs -du URI
+
+#Displays the size of the directories in the hadoop directory including the geolocation.csv file
+hdfs dfs -du  /user/hadoop/ /user/hadoop/geolocation/geolocation.csv
+
+
+#Copying geolocation.csv into your local file system directory
+hdfs dfs -get /user/hadoop/geolocation/geolocation.csv /home/
